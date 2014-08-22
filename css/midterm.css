@@ -1,0 +1,202 @@
+html{
+	background-image: url("../MidtermExam/images/bg.jpeg");
+	position:relative;
+}
+#main_cont{
+	outline:2px solid orange;
+	width:900px;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:white;	
+}
+#main-content{
+	outline:2px solid orange;
+	margin-top:30px;
+	height:400px;
+	width:800px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#main-contentt{
+	margin-top:30px;
+	height:100px;
+	width:900px;
+	}
+
+#chat{
+	outline:2px solid #D6C446;
+	width:230px;
+	height:360px;
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	box-shadow:5px 5px 5px #888888;
+}
+/*css for the login div*/
+#logindiv{
+	width: 130px;
+	height:80px;
+	float:right;
+	margin:20px;
+}
+
+#loginbutton{
+	border:2px solid black;
+	border-radius:10px;
+	height:10px;
+	padding-bottom:15px;
+	padding-top:5px;
+	padding-left:30px;
+	font-size:20px;
+	margin-bottom:7px;
+	letter-spacing:1px;
+	box-shadow:10px 10px 5px #888888
+}
+
+#links{
+	margin:6px 4px;
+	font-size:17px;
+	}
+	
+.gradients{
+	background: -webkit-linear-gradient(white, #E4CD43);
+	background: -o-linear-gradient(white, #E4CD43);
+	background: linear-gradient(white, #E4CD43);
+}
+a#log{
+	outline:2px solid red;
+	margin-top:-3px;
+	text-decoration: none;
+	font-size:18px;
+	color:black;
+}
+/*css for main title*/
+#picture{
+	width:45%;
+	border-radius:10px;
+	margin:20px;
+}
+
+/* css for the content of the website */
+#definitions{
+	margin-right:2.5%;
+	margin-left:2.5%;
+}
+.def{
+	font-size:20px;
+	color:#032904;
+}
+.def::first-letter{
+	font-size:35px;
+	font-weight:bold;
+	margin-left:100px;
+	color:#032904;
+}
+#clickme{
+	color:#d97218;
+	font-size:20px;
+	margin-left:80px;
+}
+
+/* css for the navigations */
+ul#nav{
+	
+	position: relative;
+	border-radius:20px;
+	border:1px solid black;
+	padding: 5px;
+	width:800px;
+	margin-right:auto;
+	margin-left:auto;	
+}
+#nav li{
+	list-style-type:none;
+	display:inline;
+	margin-left:18px;	 
+	font-size:20px;
+}
+/*css for tooltip*/
+.tooltip{
+	position:absolute;
+	z-index:1;
+	width:150px;
+	border: 1px solid black;
+	color:Black;
+	font-size:17px;
+	text-align:center;
+	margin-bottom:10px;
+	border-radius:10px;
+	background: -webkit-linear-gradient(white, #F67534);
+	background: -o-linear-gradient(white, #F67534);
+	background: linear-gradient(white, #F67534);
+	padding:4px;
+}
+a.navigate{
+
+	top:50px;
+	text-decoration:none;
+	margin-right:2px;
+	color:#e34f00;
+	
+}
+ img.larawan{
+	 float:left;
+	 margin-left: -24px;
+	 margin-top: 5px;
+}
+ 
+div.a{
+	outline:2px solid red;
+	height:50px;
+
+}
+
+#nav > li{
+	border-right:2px solid gray;
+}
+#nav > li:last-child{
+
+	border-right:white;
+}
+.subMenu{
+	
+	font-size:10px;
+	z-index:1;
+	border-radius:10px;
+	background: -webkit-linear-gradient(white, #499E4C);
+	background: -o-linear-gradient(white, #499E4C);
+	background: linear-gradient(white, #499E4C);
+	width:220px;
+	font-size:15px;
+}
+.subMenu > li{
+	margin-right:10px;
+}
+
+.subMenu li >a {
+	color:black;
+	text-align:center;
+}
+.subMenu li > a:hover{
+	background-color: black;
+	color:white;
+}
+#subMenu1{
+	position:absolute;
+	margin-left: 100px;
+	margin-top:10px;
+	z-index:1;
+}
+#subMenu2{
+	position:absolute;
+	margin-left: 250px;
+	margin-top:10px;
+	z-index:1;
+}
+#subMenu3{
+	position:absolute;
+	margin-left: 450px;
+	margin-top:10px;
+	z-index:1;
+}
+
